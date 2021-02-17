@@ -25,9 +25,8 @@ Follow these steps to set up and work on your project:
 
 ## Review Questions
 
-<!-- Questions to Submit in today's file first-lastname.txt --> 
-<!--
-Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+### Questions to Submit in today's file first-lastname.txt 
+#### Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
     2. What is HTML used for? 
@@ -67,16 +66,12 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     36. What is the command we would use to push our repo up to github? 
     37. Walk me through Lambda's git flow. 
 
-Stretch Questions
+#### Stretch Questions
 
     1. What is the difference between an inline element and a block element?
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
-
-
-   --> 
 
 
