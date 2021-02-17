@@ -8,7 +8,7 @@ Follow these steps to set up and work on your project:
 
 - [ ] Create your own version of this repo - Fork (Create a forked copy of this project.)
 - [ ] Clone your OWN version of the repository (Not Codebits' by mistake!).
-- [ ] Create a new branch: git checkout -b <firstName-lastName>.
+- [ ] Create a new branch: git checkout -b firstName-lastName.
 - [ ] Implement the project on your newly created <firstName-lastName> branch, committing changes regularly.
 - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the review questions/answers
 - [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
