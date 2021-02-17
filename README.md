@@ -20,7 +20,7 @@ Follow these steps to set up and work on your project:
 2. don't forget to add, commit and push your changes.
 
 ## Submission
-- [ ] Create a Pull-Request to submit your work
+- [ ] Create a Pull-Request to submit your work (Add your instructor(obahphemmy) as reviewer)
 - [ ] Use your own student fork as the base (compare across forks, base-fork -> main).
 
 ## Review Questions
