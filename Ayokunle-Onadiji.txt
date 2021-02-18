@@ -83,12 +83,23 @@ The CSS text-transform property is the key to managing text uppercase and lowerc
 28. How do I add a 1px border around my div that is dotted and black?
 
 29. How do I select everything on the page? 
+The * selector selects all elements.
 
 30. How do I write a comment in CSS?
+A CSS comment is placed inside the <style> element, and starts with /* and ends with */
+
 31. How do I find out what file I am in, when I am using the command line? 
+pwd- Print working directory
+
 32. Using the command line - how do I see a list of files/folders in my current folder?
-33. How do I remove a file via the command line? Why do I have to be careful with this? 
+ls to list
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+ rmdir
+One needs to be careful as the files are not recoverable
+
 34. Why should I use version control? 
+Version control helps teams solve these kinds of problems, tracking every individual change by each contributor and helping prevent concurrent work from conflicting.
 To track changes in project and also collaborate
 
 35. How often should I commit to github?
@@ -98,9 +109,57 @@ As often as possible to save and track changes
 git push origin main
 
 37. Walk me through Lambda's git flow. 
+Create YOUR OWN version of Repo ---> (Fork)
+
+Add your TL as collaborator
+
+on GitHub:
+Settings -> Collaborators -> Add Collaborator (use your TL's handle)
+(I'd suggest grabbing the invite tag and DM it to your TL on Slack at this point)
+
+Clone YOUR Repo
+
+back on your machine:
+git clone <your-repo-address>
+
+Create a branch (the one you are going to be working on)
+
+cd <repo directory>
+git checkout -b 'firstname-lastname'
+
+Push your new branch up to GitHub and make all future pushes to that branch
+
+git push -u origin firstname-lastname
+
+on GitHub:
+Compare & Pull Request -> Base: YOUR MASTER (Not the Lambda Master)
+compare fork: YOUR FORK
+
+Add your TL as a reviewer on the Pull Request
+
+On the 'Open a Pull Request' page click on Reviewers. If your TL has accepted your invite, then you should be able to select them here. If not, then they haven't accepted the invite, and come back later...
+
+Your TL will merge the work into YOUR Master fork when they have reviewed and approved it.
+
 
 1. What is the difference between an inline element and a block element?
+A block-level element always starts on a new line. A block-level element always takes up the full width available (stretches out to the left and right as far as it can). A block level element has a top and a bottom margin, whereas an inline element does not. WHILE An inline element does not start on a new line. An inline element only takes up as much width as necessary.
+
 2. What happens when an element is positioned absolutely? 
+An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed)
+
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+By using the borders, margin and padding
+
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+Examples of a block-level elements
+<address> - Shows contact information.
+<applet> - Embed a Java applet.
+<article> - Contains the article's content.
+
+Examples of a inline elements
+Button and Input
+
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+The fix----box-sizing: border-box
