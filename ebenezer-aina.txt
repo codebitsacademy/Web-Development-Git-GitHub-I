@@ -1,0 +1,84 @@
+1. What is Semantic HTML? 
+A. An element with clearly define meaning (by default) to both the browser and developer.
+2. What is HTML used for?
+A. For establishing the structual markup of a webpage. 
+3. What is an attribute and where do we put it?
+A. A property value pair that provides additional information/modification about an element. It is included in the opening tag. 
+4. What is the h1 tag used for? How many times should I use it on a page?
+A. It is used for main page heading. It should be used just once in page but this is not enforced.
+5. Name two tags that have required attributes
+A. Anchor tag and Image tag
+6. What do we put in the head of our HTML document? 
+A. Information that optimize the page for search engines.
+7. What is an id?
+A. An attribute that allow the developer/machine target a particular element. 
+8. What elements can I add an id to?
+A. All elements 
+9. How many times can I use the same id on a page?
+A. Once 
+10. What is a class?
+A.  An attribute that functions like id but groups elements in thesame class together for easy targeting. 
+11. What elements can I add a class to? 
+A.  All elements
+12. How many times can I use the same class on a page?
+A.  As many times as necesary 
+13. How do I get my link to open in a new tab?
+A.  By adding the -target=”_blank”- attribute.
+14. What is the alt attribute in the image tag used for? 
+A.  Alternative content to display when/if image (has/can) not be loaded. 
+15. How do I reference an id?
+A.  document.getElementById("id_name")
+16. What is the difference between a section and a div
+A.  div defines a division in the document while section is a portion that can housing chapters, header and footer.
+17. What is CSS used for? 
+A.  For styling html tags.
+18. How to we select an element? Example - every h2 on the page
+A.  document.querySelectorAll("h2")
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A.  Id can only target an element while class can target multiple elements. If you want to make the inner text of an element red, you can use id but once the target element is more than one, then, you have to use class.
+20. How do we select classes in CSS?
+A.  .class_name
+21. How do we select a p element with a single class of “human””?
+A.  document.querySelectorAll("p").getElementByClass("human")
+22. What is a parent child selector? When would this be useful?
+A.  Child selector is used to target all elements within the opening and closing tag of a reference element while parent selector is used to target the immediate element enclosing that element of reference. 
+23. How do you select all links within a div with the class of sidebar?
+A.  document.getElementByClass("class_name")
+24. What is a pseudo selector?
+A.  pseudo selector is used to target element while in a certain state like Hover.
+25. What do we use the change the spacing between lines?
+A.  defining the line-height in css.
+26. What do we use to change the spacing between letters?
+A.  Defining letter-spacing in css
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+A.  text-transform: uppercase; text-transform: lowercase; text-transform: capitalize; in css
+28. How do I add a 1px border around my div that is dotted and black?
+A.  border-bottom: 1px dotted black;
+29. How do I select everything on the page?
+A.  document.getElementById("body") 
+30. How do I write a comment in CSS?
+A.  enclose comment between /* and */
+31. How do I find out what file I am in, when I am using the command line?
+A.  pwd 
+32. Using the command line - how do I see a list of files/folders in my current folder?
+A.  ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+A.  del file/folder_name
+34. Why should I use version control?
+A.  To be able to track changes to code and revert if need be. 
+35. How often should I commit to github?
+A.  Anytime after there has been a change
+36. What is the command we would use to push our repo up to github?
+A.   git push -u origin main 
+
+
+Stretch Questions
+1. What is the difference between an inline element and a block element?
+A. Inline element doesnt create a new line at it begining while block element does.  
+2. What happens when an element is positioned absolutely?
+A. An element with position: absolute; is positioned relative to the nearest positioned ancestor 
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+A. set the height to auto 
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+A. Block: div, p, h1. inline: span, a. block-inline:img 
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
