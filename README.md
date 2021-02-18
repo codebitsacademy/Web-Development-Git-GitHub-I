@@ -63,8 +63,7 @@ Follow these steps to set up and work on your project:
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
     34. Why should I use version control? 
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    36. What is the command we would use to push our repo up to github?
 
 #### Stretch Questions
 
